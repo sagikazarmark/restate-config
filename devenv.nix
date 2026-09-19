@@ -1,0 +1,21 @@
+{ pkgs, ... }:
+
+{
+  dagger.enable = true;
+  env.DAGGER_X_RELEASE = "v1.0.0-beta.14";
+
+  packages = with pkgs; [
+    lld
+    cargo-audit
+    cargo-deny
+    cargo-release
+    cargo-watch
+  ];
+
+  languages = {
+    rust = {
+      enable = true;
+      channel = "stable";
+    };
+  };
+}
