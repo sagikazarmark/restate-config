@@ -1,5 +1,8 @@
 # Restate Config
 
+> [!WARNING]
+> The content of this repository has moved to [restate-toolkit](https://github.com/sagikazarmark/restate-toolkit).
+
 [![ci](https://img.shields.io/github/actions/workflow/status/sagikazarmark/restate-config/dagger.yaml?style=flat-square&label=ci)](https://github.com/sagikazarmark/restate-config/actions/workflows/dagger.yaml)
 [![openssf scorecard](https://api.securityscorecards.dev/projects/github.com/sagikazarmark/restate-config/badge?style=flat-square&label=openssf%20scorecard)](https://securityscorecards.dev/viewer/?uri=github.com/sagikazarmark/restate-config)
 [![crates.io](https://img.shields.io/crates/v/restate-config?style=flat-square)](https://crates.io/crates/restate-config)
